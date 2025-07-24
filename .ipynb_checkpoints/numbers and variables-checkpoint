@@ -1,0 +1,716 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "9e09b0f1-ed8d-48fd-8fa9-61e4b9b494dd",
+   "metadata": {},
+   "source": [
+    "# working with numbers"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "2cfccd20-1241-45a3-89e9-b056bc4e1397",
+   "metadata": {
+    "scrolled": true
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "25"
+      ]
+     },
+     "execution_count": 2,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "5*5"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "265c4cc8-15d4-4bdf-98e1-4d1940037e86",
+   "metadata": {
+    "scrolled": true
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "4.0"
+      ]
+     },
+     "execution_count": 3,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "8/2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "1281d08e-b785-4fe3-89bb-a8e3cfca7a78",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "5"
+      ]
+     },
+     "execution_count": 4,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "8-3"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "1d3ecb81-0d85-4b73-b816-1ef4dbf2a792",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "243"
+      ]
+     },
+     "execution_count": 5,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "3**5"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "5ac930ae-8540-4d98-bcf5-abe2c6baee8d",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "3.0"
+      ]
+     },
+     "execution_count": 6,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "27**(1/3)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "d06aa884-cd07-4679-9774-8ea033e5cf88",
+   "metadata": {
+    "scrolled": true
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "10"
+      ]
+     },
+     "execution_count": 7,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "5+5"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "d480fdfe-1fc3-4b48-921b-bcb10cb03c02",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "60"
+      ]
+     },
+     "execution_count": 8,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "3*20"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "dd8d8cfa-c219-4ddf-b0f8-e62d6ad12271",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "3.142857142857143"
+      ]
+     },
+     "execution_count": 9,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "22/7"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "bfa3e691-fb9a-4d76-8c8b-1a1a82b2cdd9",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "3"
+      ]
+     },
+     "execution_count": 10,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "22//7"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "67a752d9-ff3a-4e81-bc55-5f67cc6640f0",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "1"
+      ]
+     },
+     "execution_count": 11,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "22%7 "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "60c96da0-e78d-4b4d-bc74-b90041f86897",
+   "metadata": {},
+   "source": [
+    "# working with variables"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "b6f8a531-f292-42f6-9ecc-a814ade79501",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a = 5"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "853843fe-9fd9-4ff7-b1d0-0cba0aeb2a61",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "5"
+      ]
+     },
+     "execution_count": 14,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "id": "e99edbb5-9ae3-4c69-b839-6437f9f2b75b",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# you cannot use symbols in variables ! @ # $ % ^ & * ()\n",
+    "\n",
+    "\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "7f0123fa-280e-481f-9ea4-01d0326fa24a",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# numbers in green should not be used as a variable like\n",
+    "\n",
+    "str,int,list,tuple,dictionary,set,in,while,for\n",
+    "\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "id": "7b877a1a-9c36-4cdc-b549-0b80e64cfa3d",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# snake casing no space between variables\n",
+    "roll_no = 25"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "44d8dc8c-e9c8-4c3c-8b77-d6246c5f7200",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "password_of_wifi_of_it_department = 1234567"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "2a798d1a-40a5-4437-996f-e66fe7d6a073",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    " # camel casing \n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "422e37b6-70f8-44eb-bf1b-3ca062d6ea2d",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "passwordofwifiofitdepartment = 87654321\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "15520e0e-c27e-434e-a09b-8e771b9c8f5a",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# be more specific with naming\n",
+    "d = 5"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "67a1ff60-fa47-4368-86ad-e6c59878405a",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "dog = 5\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "2b59eef9-bcba-4035-bb31-98a7adb6972d",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# python is case sensitive language the name is differnt when we use caps lock\n",
+    "name = \"sahil\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "eb6a3e82-8f3e-4cce-b176-8382220393da",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Name = \"ujjwal\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "620e539f-4a22-44a8-83f3-2949835c3a37",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'sahil'"
+      ]
+     },
+     "execution_count": 22,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "name"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "id": "32e91ea0-1da6-4711-8400-f9c99741d8c4",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'ujjwal'"
+      ]
+     },
+     "execution_count": 23,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "Name"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "5fd17f7f-96e7-4c71-8593-cc62eeb2f1eb",
+   "metadata": {},
+   "source": [
+    "## assignment operations"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 27,
+   "id": "979418ae-6d2e-4f42-8d7b-c46461baa96e",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "amount = 8"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 28,
+   "id": "13b43e86-2649-42dd-bea4-cd97010f3570",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "32"
+      ]
+     },
+     "execution_count": 28,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "amount * 4"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 29,
+   "id": "b0ffa556-925b-455f-9e7e-7f1367597fb8",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "amount = 10"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 30,
+   "id": "8280a64e-e17a-4cf3-9d0a-d16f00877b40",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "40"
+      ]
+     },
+     "execution_count": 30,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "amount +30"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 35,
+   "id": "e72c5b87-bbe2-45d2-8673-326064507a30",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "amount = 40"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 36,
+   "id": "8ce84057-766f-4259-9e64-0d8b5bc4c8b8",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "amount = amount + 10"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 37,
+   "id": "27f66ee3-c253-4421-893c-6334b8bbab82",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "50"
+      ]
+     },
+     "execution_count": 37,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "amount"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 38,
+   "id": "eac28455-cd71-41dd-855f-1c11cc393a8a",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "  amount =amount + 20"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 39,
+   "id": "499d891a-9a8e-4901-ad33-30db0edf8a80",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "70"
+      ]
+     },
+     "execution_count": 39,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "amount"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 40,
+   "id": "7ff849bd-0d1f-48ac-8262-45c31815cb8d",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a = 20"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 41,
+   "id": "4654360a-c7de-40b0-95d9-86a2792bfb1c",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "20"
+      ]
+     },
+     "execution_count": 41,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 42,
+   "id": "32275f13-c402-4de2-b2d3-73d913d1dffc",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a -= 4"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 43,
+   "id": "889163fb-3fca-438b-b42b-fc1672219743",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "16"
+      ]
+     },
+     "execution_count": 43,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 44,
+   "id": "9b29077d-a177-4797-97b2-115c897850b3",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a += 20"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 45,
+   "id": "f92ec391-c8ab-4302-ac61-882fbbf2ee89",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "36"
+      ]
+     },
+     "execution_count": 45,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 46,
+   "id": "a5b496ce-fc54-40cf-9cd1-11c790131e87",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a /= 6"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 47,
+   "id": "67638370-892e-4cae-aa7f-d35878ff757d",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "6.0"
+      ]
+     },
+     "execution_count": 47,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "cff296d7-50bb-4da7-a966-2126df9dc06f",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "ipynb = interactive python notebook"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:base] *",
+   "language": "python",
+   "name": "conda-base-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
